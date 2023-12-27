@@ -10,9 +10,10 @@ h2 {
 
 button.grey-pill {
     background-color: rgb(153, 14, 14);
-    border: 2px solid rgb(73, 73, 73);
+    border: 2px solid rgb(14, 5, 5);
     color: white;
     padding: 15px 32px;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -31,9 +32,10 @@ button.grey-pill:hover {
 
 button.blue-pill {
     background-color: rgb(41, 18, 132);
-    border: 2px solid rgb(73, 73, 73);
+    border: 2px solid rgb(22, 19, 19);
     color: white;
     padding: 15px 32px;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -48,9 +50,10 @@ button.blue-pill:hover {
 
 button.green-pill {
     background-color: rgb(7, 156, 57);
-    border: 2px solid rgb(73, 73, 73);
+    border: 2px solid rgb(12, 2, 2);
     color: white;
     padding: 15px 32px;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -64,9 +67,10 @@ button.green-pill:hover {
 }
 button.yellow-pill {
     background-color: rgb(200, 183, 26);
-    border: 2px solid rgb(73, 73, 73);
+    border: 2px solid rgb(19, 7, 7);
     color: white;
     padding: 15px 32px;
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
