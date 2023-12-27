@@ -1,6 +1,8 @@
 import { createStore } from "redux";
 
-const reducerFun = function (state = { counter: 0 }, action) {};
+function reducerFun(state = { counter: 10 }, action) {
+    return state;
+}
 
 const store = createStore(reducerFun);
 export default store;
