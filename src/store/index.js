@@ -10,8 +10,11 @@ function reducerFun(state = { counter: 0 }, action) {
   if (action.type === "DEC") {
     return { counter: state.counter - 1 };
   }
-  if(action.type == "RES"){
-    return {counter: 0};
+  if (action.type === "RES") {
+    return { counter: 0 };
+  }
+  if (action.type === "ADD") {
+    return { counter: state.counter + action.payload };
   }
   return state;
 }
