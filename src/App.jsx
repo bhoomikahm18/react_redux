@@ -15,12 +15,12 @@ function App() {
     dispatch({type: "RES"})
   }
   return (
-    <div>
+    <div className="app">
       <h1>Counter App</h1>
       <h2>{counter}</h2>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-      <button onClick={reset}>Reset</button>
+      <button className="grey-pill" onClick={increment}>Increment</button>
+      <button className="blue-pill" onClick={decrement}>Decrement</button>
+      <button className="green-pill" onClick={reset}>Reset</button>
     </div>
   );
 }
